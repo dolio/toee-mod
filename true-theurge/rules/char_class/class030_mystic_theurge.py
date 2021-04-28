@@ -82,10 +82,10 @@ def ObjMeetsPrereqs( obj ):
 
         if min_level <= 1:
             if max_level <= 1: cap_level = 4
-            else cap_level = 7
+            else: cap_level = 7
         elif min_level == 2:
             if max_level <= 2: cap_level = 9
-            else cap_level = 10
+            else: cap_level = 10
         elif min_level == 3:
             cap_level = 11
 
