@@ -58,13 +58,13 @@ class. It can be taken at 1 Arcane/1 Divine without any tricks.
 However, the number of levels of the prestige class that may be
 selected are capped based on the following table:
 
-   A/B | MT
-   1/1 | 4
-   1/2 | 7
-   2/2 | 9
-   2/3 | 10
-   3/3 | 11
-   4/4 | 12
+     A/B | MT
+     1/1 | 4
+     1/2 | 7
+     2/2 | 9
+     2/3 | 10
+     3/3 | 11
+     4/4 | 12
 
 The maximum theurge level is limited by the lower numbers, so having
 base class allocation of 1/4 only allows 7 theurge levels, just like
