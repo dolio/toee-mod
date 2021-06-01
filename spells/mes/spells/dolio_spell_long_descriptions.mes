@@ -1,0 +1,27 @@
+
+{6300} Animate Weapon {}
+{6301} Greater Enlarge Person {}
+{6302} Inevitable Defeat {Touch deals 3d6 nonlethal damage with no save, plus 3d6/round until a successful will save
+
+Casting:         1  std action  [Enchantment,V,S]
+Range:               Touch
+Target:             One creature
+Duration:      1 round/level,    Save: None and Will negates,    SR: Yes}
+{6303} Kelgore's Fire Bolt {Deals 1d6/level (max 5d6) fire damage to one target; 1d6 even if resisted.
+
+Casting:         1  std action  [Evocation,V,S]
+Range:               Medium (100 ft + 10 ft/level)
+Target:             One creature
+Duration:      Inst.,    Save: Reflex half,   SR: Partial}
+{6304} Reciprocal Gyre {}
+{6305} Rouse {Wakes sleeping creatures in the area of effect.
+
+Casting:         1  std action  [Enchantment,V,S]
+Range:               Close (25 ft + 5ft / 2 levels)
+Area:                   10 ft burst
+Duration:      Inst.,    Save: None,    SR: No}
+{6306} Greater Mirror Image {Creates illusory duplicates of the caster, adding an additional duplicate each round.
+
+Casting:         1  swift action  [Illusion,V,S]
+Range:               Personal
+Duration:      1 minute/level}

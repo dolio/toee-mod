@@ -1,0 +1,36 @@
+{1300} {Animate Weapon}
+{1301} {Greater Enlarge Person}
+{1302} {Inevitable Defeat}
+{1303} {Kelgore's Fire Bolt}
+{1304} {Reciprocal Gyre}
+{1305} {Rouse}
+{1306} {Bigby's Tripping Hand}
+{1307} {Vertigo}
+{1308} {Whelm}
+{1309} {Mass Whelm}
+{1310} {Whelming Blast}
+
+{6300} Animate Weapon {[Transmutation] You animate a weapon to fight on your behalf while concentrating.}
+{6301} Greater Enlarge Person {[Transmutation] As Enlarge Person, but 1 hour/level.}
+{6302} Inevitable Defeat {[Enchantment] Touch deals nonlethal damage over time.}
+{6303} Kelgore's Fire Bolt {[Conjuration/Evocation] Deals up to 5d6 fire damage.}
+{6304} Reciprocal Gyre {[Abjuration] Backlash causes 1d12 damage per active spell.}
+{6305} Rouse {[Enchantment] You cause any sleeping creatures in the spell's area to awaken.}
+{6306} Bigby's Tripping Hand {[Evocation] Creates a hand of force that tries to trip the target.}
+{6307} Vertigo {[Illusion] Makes target dizzy, impairing movement, attack and
+saves.}
+{6308} Whelm {[Enchantment] Deals nonlethal damage to a single target.}
+{6309} Mass Whelm {[Enchantment] Deals nonlethal damage to many targets.}
+{6310} Whelming Blast {[Enchantment] Deals nonlethal damage in a cone shaped burst.}
+
+{21300} {TAG_SPELLS_ANIMATE_WEAPON}
+{21301} {TAG_SPELLS_GREATER_ENLARGE_PERSON}
+{21302} {TAG_SPELLS_INEVITABLE_DEFEAT}
+{21303} {TAG_SPELLS_KELGORES_FIRE_BOLT}
+{21304} {TAG_SPELLS_RECIPROCAL_GYRE}
+{21305} {TAG_SPELLS_ROUSE}
+{21306} {TAG_SPELLS_BIGBYS_TRIPPING_HAND}
+{21307} {TAG_SPELLS_VERTIGO}
+{21308} {TAG_SPELLS_WHELM}
+{21309} {TAG_SPELLS_MASS_WHELM}
+{21310} {TAG_SPELLS_WHELMING_BLAST}
