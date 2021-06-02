@@ -1,0 +1,5 @@
+ID_string: INEVITABLE_DEFEAT
+effect_type: 1
+texture_file: art\interface\player_conditions\ailments\Inevitable Defeat.tga
+help_topic: TAG_SPELLS_INEVITABLE_DEFEAT
+tooltip_base_text: Inevitable Defeat

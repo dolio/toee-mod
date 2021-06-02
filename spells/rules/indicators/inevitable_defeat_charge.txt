@@ -1,0 +1,5 @@
+ID_string: INEVITABLE_DEFEAT_CHARGE
+effect_type: 0
+texture_file: art\interface\player_conditions\buffs\Charge.tga
+help_topic: TAG_SPELLS_INEVITABLE_DEFEAT
+tooltip_base_text: Inevitable Defeat
