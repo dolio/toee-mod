@@ -39,6 +39,9 @@ def OnSpellEffect(spell):
 
 		monster = game.obj_create(monster_proto_id, target.location)
 		monster.stat_base_set(stat_strength, 14)
+		monster.obj_set_int(obj_f_description,15500)
+		monster.obj_set_int(obj_f_critter_description_unknown, 15500)
+
 		will = caster.stat_level_get(stat_save_willpower)
 		monster.condition_add_with_args(
 				"sp-Bigby's Tripping Hand", spell_stat, spell_mod,
