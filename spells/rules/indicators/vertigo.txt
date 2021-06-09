@@ -1,0 +1,5 @@
+ID_string: VERTIGO
+effect_type: 1
+texture_file: art\interface\player_conditions\ailments\vertigo.tga
+help_topic: TAG_SPELLS_VERTIGO
+tooltip_base_text: Vertigo

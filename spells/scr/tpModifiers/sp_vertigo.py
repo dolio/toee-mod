@@ -43,7 +43,7 @@ def Balance(target, args, evt_obj):
 	elif result < -4:
 		target.fall_down()
 
-	target.condition_add_with_args('Dizzy', 0, 0)
+	target.condition_add_with_args('Unsteady', 0, 0)
 	return 0
 
 def Remove(attachee, args, evt_obj):
@@ -62,25 +62,25 @@ vertigo.AddSpellTeleportPrepareStandard()
 vertigo.AddSpellTeleportReconnectStandard()
 vertigo.AddSpellCountdownStandardHook()
 
-def Dizzy(attachee, args, evt_obj):
+def Unsteady(attachee, args, evt_obj):
 	# flags, newCap, capType, mesline
 	evt_obj.bonus_list.set_overall_cap(1, 0, 0, 1004)
 	evt_obj.bonus_list.set_overall_cap(2, 0, 0, 1004)
 	return 0
 
-def DTooltip(attachee, args, evt_obj):
-	evt_obj.append('Dizzy')
+def UTooltip(attachee, args, evt_obj):
+	evt_obj.append('Unsteady')
 	return 0
 
-def DETooltip(attachee, args, evt_obj):
-	key = tpdp.hash('DIZZY')
+def UETooltip(attachee, args, evt_obj):
+	key = tpdp.hash('UNSTEADY')
 	evt_obj.append(key, -2, '')
 	return 0
 
-dizzy = PythonModifier('Dizzy', 2)
-dizzy.AddHook(ET_OnGetTooltip, EK_NONE, DTooltip, ())
-dizzy.AddHook(ET_OnGetEffectTooltip, EK_NONE, DETooltip, ())
-dizzy.AddHook(ET_OnGetMoveSpeed, EK_NONE, Dizzy, ())
-dizzy.AddHook(ET_OnD20Signal, EK_S_EndTurn, Remove, ())
-dizzy.AddHook(ET_OnD20Signal, EK_S_Combat_End, Remove, ())
-dizzy.AddHook(ET_OnD20Signal, EK_S_Killed, Remove, ())
+unsteady = PythonModifier('Unsteady', 2)
+unsteady.AddHook(ET_OnGetTooltip, EK_NONE, UTooltip, ())
+unsteady.AddHook(ET_OnGetEffectTooltip, EK_NONE, UETooltip, ())
+unsteady.AddHook(ET_OnGetMoveSpeed, EK_NONE, Unsteady, ())
+unsteady.AddHook(ET_OnD20Signal, EK_S_EndTurn, Remove, ())
+unsteady.AddHook(ET_OnD20Signal, EK_S_Combat_End, Remove, ())
+unsteady.AddHook(ET_OnD20Signal, EK_S_Killed, Remove, ())

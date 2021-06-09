@@ -1,0 +1,5 @@
+ID_string: UNSTEADY
+effect_type: 1
+texture_file: art\interface\player_conditions\ailments\unsteady.tga
+help_topic: TAG_CONDITION_UNSTEADY
+tooltip_base_text: Unsteady
