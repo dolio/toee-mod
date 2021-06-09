@@ -14,9 +14,30 @@ def Penalty(attachee, args, evt_obj):
 	evt_obj.bonus_list.add(-2, 0, Descr(spell_id))
 	return 0
 
+def reflex_roll_delta(target, dc):
+	dice = dice_new('1d20')
+
+	reflex_mod = target.stat_level_get(stat_save_reflexes)
+	bonus = tpdp.BonusList()
+	bonus.add(reflex_mod, 0, "~Reflex~[TAG_SAVE_REFLEX] Saves")
+	roll = dice.roll()
+
+	hist = tpdp.create_history_dc_roll(
+			target, dc, dice, roll, "Reflexive Balance", bonus)
+
+	game.create_history_from_id(hist)
+
+	print roll
+
+	return roll + reflex_mod - dc
+
 def Balance(target, args, evt_obj):
-	result = target.skill_roll_delta(skill_tumble, 10, 1)
-	print result
+	# swap the commenting on the `result` lines if balance is
+	# valid in the module you are playing and you want to use it.
+
+	# result = target.skill_roll_delta(skill_balance, 10, 1)
+	result = reflex_roll_delta(target, 10)
+
 	if result >= 0:
 		return 0
 	elif result < -4:
