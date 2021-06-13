@@ -31,7 +31,12 @@ def OnSpellEffect(spell):
 			remove.append(target)
 			continue
 
+		caster.condition_add_with_args('Dismiss', spell.id, duration)
 		target.condition_add_with_args('sp-Vertigo', spell.id, duration, 0, 0)
 
 	spell.target_list.remove_list(remove)
 	spell.spell_end(spell.id)
+
+def OnEndSpellCast(spell):
+	Debug('OnEndSpellCast')
+	spell.caster.d20_send_signal(S_Spell_End, spell.id)
