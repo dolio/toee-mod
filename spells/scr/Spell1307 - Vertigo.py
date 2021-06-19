@@ -19,7 +19,7 @@ def OnSpellEffect(spell):
 	Debug("OnSpellEffect")
 
 	caster = spell.caster
-	duration = spell.caster_level
+	spell.duration = spell.caster_level
 
 	remove = []
 	for target_item in spell.target_list:
@@ -31,8 +31,9 @@ def OnSpellEffect(spell):
 			remove.append(target)
 			continue
 
-		caster.condition_add_with_args('Dismiss', spell.id, duration)
-		target.condition_add_with_args('sp-Vertigo', spell.id, duration, 0, 0)
+		caster.condition_add_with_args('Dismiss', spell.id)
+		target.condition_add_with_args(
+				'sp-Vertigo', spell.id, spell.duration, 0, 0)
 
 	spell.target_list.remove_list(remove)
 	spell.spell_end(spell.id)

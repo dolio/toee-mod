@@ -45,10 +45,8 @@ def OnTouch(attachee, args, evt_obj):
 		target = action.target
 
 		spell_id = args.get_arg(0)
+		duration = -1 * args.get_arg(1)
 		dc = args.get_arg(3)
-
-		packet = tpdp.SpellPacket(spell_id)
-		duration = packet.caster_level
 
 		DamageEffect(caster, target, spell_id)
 

@@ -22,9 +22,11 @@ def OnSpellEffect(spell):
 
 	target = spell.target_list[0]
 
+	spell.duration = spell.caster_level
+
 	target.partsys_id = game.particles('sp-Touch of Fatigue', target.obj)
 	target.obj.condition_add_with_args(
-			'sp-Inevitable Defeat', spell.id, -1, 1, spell.dc, 0)
+			'sp-Inevitable Defeat', spell.id, -1 * spell.duration, 1, spell.dc, 0)
 
 def OnBeginRound(spell):
 	Debug("OnBeginRound")
