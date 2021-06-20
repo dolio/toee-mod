@@ -6,6 +6,7 @@
 {1308} {Whelm}
 {1309} {Mass Whelm}
 {1310} {Whelming Blast}
+{1311} {Greater Mirror Image}
 
 {6302} {Inevitable Defeat}
 {6303} {Kelgore's Fire Bolt}
@@ -14,6 +15,7 @@
 {6308} {Whelm}
 {6309} {Mass Whelm}
 {6310} {Whelming Blast}
+{6311} {Greater Mirror Image}
 
 {21302} {TAG_SPELLS_INEVITABLE_DEFEAT}
 {21303} {TAG_SPELLS_KELGORES_FIRE_BOLT}
@@ -22,4 +24,5 @@
 {21308} {TAG_SPELLS_WHELM}
 {21309} {TAG_SPELLS_MASS_WHELM}
 {21310} {TAG_SPELLS_WHELMING_BLAST}
+{21311} {TAG_SPELLS_GREATER_MIRROR_IMAGE}
 
