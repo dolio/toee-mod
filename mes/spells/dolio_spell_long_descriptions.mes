@@ -25,3 +25,9 @@ Duration:      Inst.,    Save: None,    SR: No}
 Casting:         1  swift action  [Illusion,V,S]
 Range:               Personal
 Duration:      1 minute/level}
+{6313} Stand {Prone target briefly blinks out of view, then blinks back, standing.
+
+Casting:         1  swift action  [Conjuration,V,S]
+Range:               Close (25 ft + 5ft / 2 levels)
+Target:             One willing prone creature
+Duration:      Inst.,    Save: Will (harmless), SR: Yes (harmless)}
