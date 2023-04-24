@@ -31,3 +31,8 @@ Casting:         1  swift action  [Conjuration,V,S]
 Range:               Close (25 ft + 5ft / 2 levels)
 Target:             One willing prone creature
 Duration:      Inst.,    Save: Will (harmless), SR: Yes (harmless)}
+{6314} Blade of Blood {Next successful attack on a living creature deals 1d6 or 3d6 extra damage
+
+Casting:         1  swift action  [Necromancy,V,S]
+Target:             One weapon held
+Duration:      1 round/level or until discharged,    Save: None, SR: No}

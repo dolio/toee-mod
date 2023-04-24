@@ -11,6 +11,7 @@
 {1310} {Whelming Blast}
 {1311} {Greater Mirror Image}
 {1313} {Stand}
+{1314} {Blade of Blood}
 
 {6300} Animate Weapon {[Transmutation] You animate a weapon to fight on your behalf while concentrating.}
 {6301} Greater Enlarge Person {[Transmutation] As Enlarge Person, but 1 hour/level.}
@@ -26,6 +27,7 @@ saves.}
 {6310} Whelming Blast {[Enchantment] Deals nonlethal damage in a cone shaped burst.}
 {6311} Greater Mirror Image {[Illusion] Creates mirror images to distract opponents, gaining more images each round.}
 {6313} Stand {[Conjuration] Teleports prone target to standing position.}
+{6314} Blade of Blood {[Necromancy] Enhances damage on next successful attack.}
 
 {21300} {TAG_SPELLS_ANIMATE_WEAPON}
 {21301} {TAG_SPELLS_GREATER_ENLARGE_PERSON}
@@ -40,3 +42,4 @@ saves.}
 {21310} {TAG_SPELLS_WHELMING_BLAST}
 {21311} {TAG_SPELLS_GREATER_MIRROR_IMAGE}
 {21313} {TAG_SPELLS_STAND}
+{21314} {TAG_SPELLS_BLADE_OF_BLOOD}
